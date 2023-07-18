@@ -1,0 +1,46 @@
+/*=======================================
+				Callout Bar
+=======================================*/
+
+$callout-bar-padding-small: rem-calc(20 0);
+$callout-bar-padding-medium: rem-calc(20 0);
+$callout-bar-padding-large: rem-calc(40 0);
+
+.callout-counter {
+	position: relative;
+	text-align: center;
+	padding: $callout-bar-padding-small;
+	background: radial-gradient(circle farthest-corner at 100% 50%, #08A4A4, #045C71 90%);
+
+	> * {
+		color: $white
+	}
+
+	.counter {
+		font-weight: 800;
+		font-size: rem-calc(50);
+	}
+
+	.message {
+		@extend h2;
+		color: $white
+	}
+
+	@include breakpoint(medium) {
+		padding: $callout-bar-padding-medium;
+	}
+	@include breakpoint(large) {
+		padding: $callout-bar-padding-large;
+		.large-8 {
+			text-align: left;
+		}
+		.large-4 {
+			text-align: right;
+		}
+
+		.counter {
+			font-weight: 800;
+			font-size: rem-calc(100);
+		}
+	}
+}

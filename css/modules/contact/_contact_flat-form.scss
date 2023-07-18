@@ -1,0 +1,112 @@
+$flat-form-bg-color: $third-color;
+$flat-form-bg-pattern: url('/images/logo_grey.svg');
+$flat-form-text-color: $white;
+
+$flat-form-padding-small: rem-calc(45) 0;
+$flat-form-padding-medium: rem-calc(60) 0;
+$flat-form-padding-large: rem-calc(60) 0;
+
+$flat-form-heading-font-weight: $global-weight-bold;
+$flat-form-heading-color: inherit;
+$flat-form-heading-margin: 0 0 rem-calc(5);
+
+$flat-form-message-font-size: rem-calc(20);
+$flat-form-message-margin-bottom: rem-calc(30);
+
+$flat-form-input-spacing: 0 rem-calc(20 20) 0;
+$flat-form-input-sizing-small: 1 1 100%;
+$flat-form-input-sizing-medium: 1 1 50%;
+$flat-form-input-sizing-large: 1 1 auto;
+
+$flat-form-submit-hover-bg-color: $secondary-color;
+
+.contact_flat-form{
+  position: relative;
+  background-color: $flat-form-bg-color;
+  color: $flat-form-text-color;
+  padding: $flat-form-padding-small;
+
+  >.row{
+    position: relative;
+    z-index: 5;
+  }
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-image: $flat-form-bg-pattern;
+    background-size: $logo-background-size-small;
+    opacity: 0.1;
+    position: absolute;
+  }
+
+  .flat-form_heading{
+    @extend .h2;
+    font-weight: $flat-form-heading-font-weight;
+    color: $flat-form-heading-color;
+    margin: $flat-form-heading-margin;
+  }
+
+  .flat-form_message{
+    font-size: $flat-form-message-font-size;
+    margin-bottom: $flat-form-message-margin-bottom;
+  }
+
+  .flat-form_form form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .form_required_div{
+      display: none;
+    }
+
+    .fm-question-container{
+      display: inline-block;
+      flex: $flat-form-input-sizing-small;
+      margin: $flat-form-input-spacing;
+    }
+
+    .buttons{
+      margin: $flat-form-input-spacing;
+      flex: $flat-form-input-sizing-large;
+
+      &:hover, &:focus{
+        background-color: $flat-form-submit-hover-bg-color;
+      }
+    }
+
+    .fm-question-container{
+      display: inline-block;
+    }
+  }
+
+  @include breakpoint(medium){
+    padding: $flat-form-padding-medium;
+
+    .flat-form_form form{
+      .fm-question-container{
+        flex: $flat-form-input-sizing-medium;
+      }
+    }
+  }
+
+  @include breakpoint(large){
+    padding: $flat-form-padding-large;
+
+    &::before {
+      background-size: $logo-background-size-large;
+    }
+
+    .flat-form_form form{
+      .fm-question-container{
+        flex: $flat-form-input-sizing-large;
+      }
+    }
+  }
+}
+
