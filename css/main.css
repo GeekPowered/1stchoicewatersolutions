@@ -9048,7 +9048,7 @@ nav li {
   line-height: 1.2;
   letter-spacing: 0.5px;
   background-size: 12px;
-  background-image: url("/images/custom-list.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/custom-list.svg");
   background-repeat: no-repeat;
   background-position: 0 1px;
 }
@@ -9419,7 +9419,7 @@ ul.three-columns li {
   position: absolute;
   top: -0.61111rem;
   left: 1.66667rem;
-  content: url("/images/coupon-scissors.png");
+  content: url("https://geekpowered.github.io/1stchoicewatersolutions/images/coupon-scissors.png");
 }
 
 .coupon .barcode {
@@ -9519,7 +9519,7 @@ ul.three-columns li {
   padding-top: 1.66667rem;
   margin: 0 auto 0.83333rem;
   border-radius: 0;
-  background: url("/images/coupon-print.png") center top 20px no-repeat, #fff;
+  background: url("https://geekpowered.github.io/1stchoicewatersolutions/images/coupon-print.png") center top 20px no-repeat, #fff;
   border: 1px solid #707070;
   font-size: 0.77778rem;
   text-transform: uppercase;
@@ -9529,7 +9529,7 @@ ul.three-columns li {
 }
 
 .coupon .print-coupon-button:hover {
-  background: url("/images/coupon-print.png") center top 20px no-repeat, #ddd;
+  background: url("https://geekpowered.github.io/1stchoicewatersolutions/images/coupon-print.png") center top 20px no-repeat, #ddd;
 }
 
 .coupon .coupon-qr-code {
@@ -10231,7 +10231,7 @@ form .form_text.fm-zipext {
 
 .callout-table-module.extra-content {
   background-color: #f2f2f2;
-  background-image: url("/images/logo_grey.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/logo_grey.svg");
   background-size: 9vw;
   background-repeat: repeat;
   background-blend-mode: soft-light;
@@ -10635,7 +10635,7 @@ We'll revisit this once the search page is updated.
 }
 
 .extra-content.know-your-water-module {
-  background: #08497a url("/images/know-your-water.jpg") center/cover no-repeat;
+  background: #08497a url("https://geekpowered.github.io/1stchoicewatersolutions/images/know-your-water.jpg") center/cover no-repeat;
 }
 
 @media print, screen and (max-width: 39.99875em) {
@@ -10665,7 +10665,7 @@ We'll revisit this once the search page is updated.
 
 .know-your-water__item {
   padding-left: 3.33333rem;
-  background: url("/images/image-list-danger.png") left top/auto no-repeat;
+  background: url("https://geekpowered.github.io/1stchoicewatersolutions/images/image-list-danger.png") left top/auto no-repeat;
 }
 
 .know-your-water__main-heading {
@@ -10765,11 +10765,11 @@ We'll revisit this once the search page is updated.
 }
 
 .reputation-callout-module {
-  background: #0083e6 url("/images/reputation-1.jpg") center/cover no-repeat;
+  background: #0083e6 url("https://geekpowered.github.io/1stchoicewatersolutions/images/reputation-1.jpg") center/cover no-repeat;
 }
 
 .page__services-child .reputation-callout-module {
-  background: #0083e6 url("/images/reputation-2.jpg") center/cover no-repeat;
+  background: #0083e6 url("https://geekpowered.github.io/1stchoicewatersolutions/images/reputation-2.jpg") center/cover no-repeat;
 }
 
 .reputation-callouts {
@@ -10813,13 +10813,13 @@ We'll revisit this once the search page is updated.
 }
 
 #page-id-175 .reputation-callout-module {
-  background-image: url("/images/whs_bg.png");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/whs_bg.png");
 }
 
 .reputation-callout {
   text-align: left;
   padding: 0.27778rem 0.83333rem 0.27778rem 3.33333rem;
-  background: url("/images/image-list-reputation.svg");
+  background: url("https://geekpowered.github.io/1stchoicewatersolutions/images/image-list-reputation.svg");
   background-size: 31px 45px;
   background-position: left 15px top 0.55556rem;
   background-repeat: no-repeat;
@@ -11269,7 +11269,7 @@ a.skip-to-content:active {
 }
 
 #page-id-1 .extra-content.extra-content_4 {
-  background: #0083e6 url("/images/aspect-bg.jpg") center top/cover no-repeat;
+  background: #0083e6 url("https://geekpowered.github.io/1stchoicewatersolutions/images/aspect-bg.jpg") center top/cover no-repeat;
 }
 
 #page-id-1 .extra-content.hopscotch-section {
@@ -11365,7 +11365,7 @@ a.skip-to-content:active {
 
 #page-id-2 .extra-content_1 {
   background-color: rgba(72, 198, 255, 0.87);
-  background-image: url("/images/locations-bg.jpg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/locations-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12481,7 +12481,7 @@ ul.blog-categories li:last-of-type {
 .sub-banner {
   position: relative;
   background-color: #000;
-  background-image: url("/images/sub-banner.jpg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/sub-banner.jpg");
   color: #fff;
   text-align: center;
   background-size: cover;
@@ -12550,7 +12550,7 @@ ul.blog-categories li:last-of-type {
 
 @media print, screen and (min-width: 40em) {
   .sub-banner {
-    background-image: url("/images/sub-banner.jpg");
+    background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/sub-banner.jpg");
   }
   #sub-banner-container .sub-banner__heading {
     margin: 3.33333rem 0.83333rem 1.11111rem 0.83333rem;
@@ -12784,7 +12784,7 @@ ul.blog-categories li:last-of-type {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/banner-shape-1.png");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/banner-shape-1.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12850,7 +12850,7 @@ ul.blog-categories li:last-of-type {
   bottom: calc(100% - 16px);
   left: 0.83333rem;
   display: block;
-  background-image: url("/images/icon-open-quotes.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/icon-open-quotes.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -12860,7 +12860,7 @@ ul.blog-categories li:last-of-type {
   bottom: -12px;
   left: unset;
   right: 0.83333rem;
-  background-image: url("/images/icon-close-quotes.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/icon-close-quotes.svg");
 }
 
 .banner-testimonial blockquote {
@@ -13811,7 +13811,7 @@ ul.menu-main .submenu {
   color: #fff;
   border-top: none;
   border-bottom: none;
-  background-image: url("/images/testimonial-bg.jpg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/testimonial-bg.jpg");
 }
 
 .section-testimonials-slide-bar .rating {
@@ -14102,7 +14102,7 @@ ul.menu-main .submenu {
   padding: 1.66667rem;
   background-color: #0083e6;
   color: #fff;
-  background: url("/images/callout-contact-bg.jpg") center/cover no-repeat;
+  background: url("https://geekpowered.github.io/1stchoicewatersolutions/images/callout-contact-bg.jpg") center/cover no-repeat;
 }
 
 .callout-bar-contact > *,
@@ -14450,7 +14450,7 @@ ul.menu-main .submenu {
   top: 0;
   left: 0;
   z-index: 0;
-  background-image: url("/images/logo_grey.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/logo_grey.svg");
   background-size: 9vw;
   background-position: unset;
   opacity: 0.1;
@@ -14524,7 +14524,7 @@ ul.menu-main .submenu {
   top: 0;
   left: 0;
   z-index: 0;
-  background-image: url("/images/logo_grey.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/logo_grey.svg");
   background-size: 9vw;
   background-position: unset;
   opacity: 0.1;
@@ -14691,7 +14691,7 @@ ul.menu-main .submenu {
   top: 0;
   left: 0;
   z-index: 0;
-  background-image: url("/images/logo_grey.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/logo_grey.svg");
   background-size: 9vw;
   opacity: 0.1;
   position: absolute;
@@ -14936,7 +14936,7 @@ ul.menu-main .submenu {
   top: 0;
   left: 0;
   z-index: 0;
-  background-image: url("/images/logo_grey.svg");
+  background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/logo_grey.svg");
   background-size: 9vw;
   opacity: 0.1;
   position: absolute;
@@ -15063,7 +15063,7 @@ ul.menu-main .submenu {
     position: absolute;
     height: 100%;
     width: 50%;
-    background-image: url("/images/placeholder-bg.png");
+    background-image: url("https://geekpowered.github.io/1stchoicewatersolutions/images/placeholder-bg.png");
     background-size: cover;
     background-position: center;
     z-index: 1;
